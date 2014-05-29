@@ -1,6 +1,8 @@
 package com.example.bufunfa;
 
-public class GraficosFragment {
+import android.support.v4.app.Fragment;
+
+public class GraficosFragment extends Fragment{
 
 	public GraficosFragment() {
 		// TODO Auto-generated constructor stub
