@@ -128,7 +128,21 @@ public class MainActivity extends ActionBarActivity implements
 			// getItem is called to instantiate the fragment for the given page.
 			// Return a PlaceholderFragment (defined as a static inner class
 			// below).
-			return PlaceholderFragment.newInstance(position + 1);
+			
+			switch(position){
+			
+			case 0:
+				return new ReceitasFragment();
+			case 1:
+				return new DespesasFragment();
+			case 2:
+				return new GraficosFragment();
+			
+			}
+			
+			return null;
+			
+			
 		}
 
 		@Override
