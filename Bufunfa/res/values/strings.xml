@@ -2,9 +2,9 @@
 <resources>
 
     <string name="app_name">Bufunfa</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
-    <string name="action_settings">Settings</string>
+    <string name="title_section1">Receitas</string>
+    <string name="title_section2">Despesas</string>
+    <string name="title_section3">Gráficos</string>
+    <string name="action_settings">Configurações</string>
 
 </resources>
